@@ -1,10 +1,6 @@
-﻿namespace primera_prueba_con_git
+﻿Console.WriteLine("Ingrese su nota");
+int nota = int.Parse(Console.WriteLine());
+if (nota >= 65 && nota <= 100)
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
-    }
+    Console.WriteLine("Aprobado");
 }
